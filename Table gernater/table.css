@@ -1,0 +1,35 @@
+body {
+    font-size: 15pt;
+   background-image: url(image2.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+   
+   
+   
+}
+div{
+margin: auto;
+text-align: center;
+width: 270px; 
+height: auto;
+background-image: url(download1.jpg);
+background-size: cover;
+border-radius: 20px;
+}
+input{
+    margin-left: 8%;
+    margin-top: 4px;
+    background-color: #CFD0CE;
+    border-radius: 15px;
+    height: 28px;
+    font-size: 17px
+}
+button{
+  background-color: #6e8fd4;
+  border-radius: 10px;
+  margin-left: 7%;
+}
+p {
+    font-size: 20px;
+    
+}

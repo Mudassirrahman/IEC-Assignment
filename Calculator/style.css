@@ -1,0 +1,55 @@
+
+div.maindiv {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+.col-3 {width: 33.33%;}
+.col-12{width: 100%;}
+
+
+div.fstdiv {
+    background-color: #fff;
+}
+
+
+div.lastdiv {
+    background-color: #fff;
+}
+input{
+    margin-top: 1px;
+    width: 308px;
+    height: 45px;
+    border: whitesmoke solid 1px;
+    background-color: rgb(105, 103, 102);
+    font-size: 28px;
+    color: #fff;
+    padding-bottom: 0px;
+}
+
+
+button {
+    font-size: 25px;
+    color: blue;
+    background-color: rgb(245, 95, 245);
+    min-height: 45px;
+    width: 75px;
+    margin: 0;
+    padding: 10px;
+
+}
+
+button.action {
+    background-color: darkorange;
+}
+button.dubble{width: 153px;
+margin-left: 1px;}
+
+
+@media screen and (max-width: 680px) {
+    div.col-12{width:100% }
+}
+    
+
+
