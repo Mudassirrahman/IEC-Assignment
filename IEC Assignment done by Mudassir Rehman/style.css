@@ -1,0 +1,14 @@
+body {
+    font-size: 15pt;
+}
+body { background-image: url("images.jpeg");
+background-size: cover;
+  } }
+h1 { text-align: center;
+margin: 50px; }
+a { text-decoration: none; }
+.contecttag {
+  color: #fff;
+}
+ul {list-style: none;
+}
