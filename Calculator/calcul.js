@@ -10,6 +10,11 @@ for (item of buttons){
             screenValue += buttonText;
         screen.value = screenValue }
 
+        else if (buttonText=='÷'){
+            buttonText = '/';
+            screenValue += buttonText;
+        screen.value = screenValue }
+
             else if (buttonText =='C'){
                 screenValue = "";
                 screen.value = screenValue
