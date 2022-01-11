@@ -266,6 +266,10 @@ height: 250px;
 
 /*  css for  dishes part start*/
 
+section.dishes{
+  margin-top: 6%;
+}
+
 img.dish-img{
   width: 200px;
   height: 150px;
