@@ -217,6 +217,7 @@ text-align: center;
 }
 
 .col-3 h1{
+  margin-top: 7%;
   color: #192a56;
 }
 .col-3 h3{
@@ -227,6 +228,24 @@ text-align: center;
   color: #666;
   font-size: 1.6rem;
   margin: 0 2rem;
+}
+
+@media (max-width:800px){
+  .col-3 h3{
+    font-size:2rem ;
+  }
+.col-3 p{
+  font-size: 1.3rem;
+}
+}
+
+@media (max-width:420px){
+  .col-3 h3{
+    font-size:1.5rem ;
+  }
+.col-3 p{
+  font-size: 1rem;
+}
 }
 .col-7{width: 61.33%;}
 
@@ -373,7 +392,7 @@ h3.dishes-text{
 @media(max-width:500px){
   .dishes .box-container .box{
     width: 65%;
-    height: 259px;
+    height: 290px;
   }
 
   img.dish-img{

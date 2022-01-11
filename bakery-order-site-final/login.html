@@ -11,7 +11,9 @@
 <div class="login-page">
     <div class="login-form">
     <div class="login-metrial">
-        <div id="btn"></div>
+        <div id="btn">
+          <a href="index-main.html">  <button class="home">Home</button></a>
+        </div>
         <button type="button" class="toggle-btn" onclick="login()">Log in</button>
         <button type="button" class="toggle-btn" onclick="register()">Register</button>
     </div>
@@ -20,13 +22,14 @@
         <input type="text" class="input-field" placeholder="Enter Password" required>
         <input type="checkbox" class="check-box"><span>Remember Password</span>
         <button type="submit" class="submit-btn">Log in</button>
+        
     </form>
     <form id="register" class="input-group">
             <input type="text" class="input-field" placeholder="User Id" required>
             <input type="email" class="input-field" placeholder="Email Id" required>
             <input type="text" class="input-field" placeholder="Enter Password" required>
             <input type="text" class="input-field" placeholder="Confrim Password" required>
-            <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+            <input type="checkbox" class="check-box"><span class="register-form">I agree to the terms & conditions</span>
             <button type="submit" class="submit-btn">Register</button>
     </form>
 </div>
