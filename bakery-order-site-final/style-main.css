@@ -342,7 +342,13 @@ h3.dishes-text{
   overflow: hidden;
   text-align: center;
   width: 252px;
-  height: 285px;
+  height: 290px;
+}
+
+span.price{
+  font-size: 1.8rem;
+  color: #27ae60;
+  margin-right: 1rem;
 }
 .btn{
   margin-top: 1rem;
